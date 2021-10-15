@@ -8,8 +8,8 @@ while True:
 
     # print(frame)
 
-    # gray=cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
-    cv2.imshow("Capturing",frame)
+    gray=cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
+    cv2.imshow("Capturing",gray)
 
     key = cv2.waitKey(1)
 
