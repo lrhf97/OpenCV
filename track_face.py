@@ -3,6 +3,7 @@ import cv2, time
 # first_frame = None
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
+# for use when I have access to the webcam
 video = cv2.VideoCapture(cv2.CAP_V4L2)
 
 while True:
